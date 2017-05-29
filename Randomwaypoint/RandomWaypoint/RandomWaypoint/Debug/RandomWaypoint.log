@@ -1,0 +1,36 @@
+﻿빌드 시작: 2016-11-28 오후 4:32:04
+     1>2 노드의 "E:\RandomWaypoint\RandomWaypoint\RandomWaypoint.vcxproj" 프로젝트(build 대상)입니다.
+       프로젝트 파일에 ToolsVersion="14.0"이(가) 들어 있습니다. 이 도구 집합은 알 수 없거나 누락되었을 수 있습니다. 이 경우 적절한 버전의 MSBuild를 설치하여 이 문제를 해결할 수 있습니다. 그렇지 않으면 빌드가 정책상의 이유로 특정 ToolsVersion이 될 수 있습니다. 프로젝트에 ToolsVersion="4.0"이 들어 있는 것으로 간주합니다. 자세한 내용은 http://go.microsoft.com/fwlink/?LinkId=291333을 참조하십시오.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\RandomWaypoint.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt getDistance.c InitializeRW.c main.c RandomWaypoint.c setDestination.c computeNextCoordinate.c setPackets.c udp_socket.c
+         udp_socket.c
+         setPackets.c
+         computeNextCoordinate.c
+         setDestination.c
+         RandomWaypoint.c
+         main.c
+         InitializeRW.c
+         getDistance.c
+         코드를 생성하고 있습니다...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\RandomWaypoint\Debug\RandomWaypoint.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RandomWaypoint.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\RandomWaypoint\Debug\RandomWaypoint.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\RandomWaypoint\Debug\RandomWaypoint.lib" /MACHINE:X86 Debug\getDistance.obj
+         Debug\InitializeRW.obj
+         Debug\main.obj
+         Debug\RandomWaypoint.obj
+         Debug\setDestination.obj
+         Debug\computeNextCoordinate.obj
+         Debug\setPackets.obj
+         Debug\udp_socket.obj
+         RandomWaypoint.vcxproj -> E:\RandomWaypoint\Debug\RandomWaypoint.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\RandomWaypoint\Debug\RandomWaypoint.exe;#1" /manifest Debug\RandomWaypoint.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         "Debug\RandomWaypoint.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\RandomWaypoint.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"E:\RandomWaypoint\RandomWaypoint\RandomWaypoint.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:16.33
